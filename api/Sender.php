@@ -39,7 +39,8 @@ class Handler
             "queryresult" => $this->answer,
             "status" => $this->status,
             "handler" => '🛸; Vercel PHP Runtime \\ ' . $_ENV['VERCEL_GIT_REPO_SLUG'],
-            "lastcommit" => $_ENV['VERCEL_GIT_COMMIT_SHA']
+            "lastcommit" => substr($_ENV['VERCEL_GIT_COMMIT_SHA'], 0, 7) . " (" . $_ENV['VERCEL_GIT_COMMIT_SHA'] . ")"
+
         ];
 
         return json_encode($result);
