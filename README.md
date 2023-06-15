@@ -1,4 +1,4 @@
 # Online store \\ API
-php-API for the online store. Frontend is [here](https://github.com/crzbove/practice)
+php-API for the online store. Frontend is [here](https://github.com/crzbove/online-store-frontend)  
 
-![image](https://github.com/crzbove/practice-api/assets/11350665/2a0335ec-6606-4f5f-956c-894b85ea9a4e)
+![image](https://github.com/crzbove/online-store-api/assets/11350665/cc1b51ba-ab1a-45f1-8107-98d6e3190ca8)
